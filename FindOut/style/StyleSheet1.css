@@ -1,8 +1,58 @@
-﻿﻿body {
-    background-color: #a7a7a7;
+﻿body {
+    background-color: #5e5e5e;
 }
 
 #linha0, #linha1, #linha2, #linha3, #linha4 {
-    margin: 20px auto;
-    
+    margin: 0 740px;
+}
+
+
+#linhas input[type=text] {
+    height: 60px;
+    width: 60px;
+    background-color: #5e5e5e;
+    margin: 15px 5px;
+    margin-bottom: 0px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: #0c0c0d;
+}
+
+
+#linhas {
+    padding: 150px 0;
+}
+
+#Button1 {
+    height: 70px;
+    width: 150px;
+    background-color: #83E528;
+    margin: 50px 740px;
+    margin-bottom: 0px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Fredoka One', cursive;
+    color: #0c0c0d;
+}
+
+
+#Button2 {
+    height: 70px;
+    width: 150px;
+    background-color: #ff6a00;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Fredoka One', cursive;
+    color: #0c0c0d;
+    position: relative;
+    top: 0px;
+    left: -640px;
 }
