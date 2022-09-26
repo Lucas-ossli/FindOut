@@ -44,7 +44,7 @@
         </div>
            
          <div id="linha2">
-            <asp:TextBox ID="textBox10" class="TextBox10" runat="server" MaxLength="1"></asp:TextBox>
+            <asp:TextBox ID="TextBox10" class="TextBox10" runat="server" MaxLength="1"></asp:TextBox>
             <asp:TextBox ID="TextBox11" class="TextBox11" runat="server" MaxLength="1"></asp:TextBox>
             <asp:TextBox ID="TextBox12" class="TextBox12" runat="server" MaxLength="1"></asp:TextBox>
             <asp:TextBox ID="TextBox13" class="TextBox13" runat="server" MaxLength="1"></asp:TextBox>
@@ -52,11 +52,11 @@
             </div>
             
          <div id="linha3">
-            <asp:TextBox ID="TextBox15" runat="server" class="TextBox15" MaxLength="1"></asp:TextBox>
-            <asp:TextBox ID="TextBox16" runat="server" class="TextBox16" MaxLength="1"></asp:TextBox>
-            <asp:TextBox ID="TextBox17" runat="server" class="TextBox17" MaxLength="1"></asp:TextBox>
-            <asp:TextBox ID="TextBox18" runat="server" class="TextBox18" MaxLength="1" ></asp:TextBox>
-            <asp:TextBox ID="TextBox19" runat="server" class="TextBox19" MaxLength="1"></asp:TextBox>
+            <asp:TextBox ID="TextBox15" class="TextBox15" runat="server"  MaxLength="1"></asp:TextBox>
+            <asp:TextBox ID="TextBox16" class="TextBox16" runat="server"  MaxLength="1"></asp:TextBox>
+            <asp:TextBox ID="TextBox17" class="TextBox17" runat="server"  MaxLength="1"></asp:TextBox>
+            <asp:TextBox ID="TextBox18" class="TextBox18" runat="server"  MaxLength="1" ></asp:TextBox>
+            <asp:TextBox ID="TextBox19" class="TextBox19" runat="server"  MaxLength="1"></asp:TextBox>
             </div >
             
         <div id="linha4">
@@ -68,15 +68,11 @@
         </div>
 
         
-            <div>
+        <div id="Button">
              <asp:Button ID="Button1" runat="server" Text="Verificar" OnClientClick="return false;"/>
              <asp:Button ID="Button2" runat="server" Text="Atualizar" OnClientClick="return false;"/>
         </div>
         
-
-       
-       
-
 
 
 
